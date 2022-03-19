@@ -1,6 +1,7 @@
 package com.example.springkafkaproducerv1.config;
 
 import com.example.springkafkaproducerv1.model.Book;
+import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
